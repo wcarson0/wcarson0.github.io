@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Closer Look at AI Art Instagram Page</title>
+    <meta name="description" content="Case study page of Project" />
+
+    <link rel="stylesheet" href="css/style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__content">
+        <div class="header__logo-container">
+          <div class="header__logo-img-cont">
+            <img
+              src="./assets/png/will-carson.png"
+              alt="Will Carson Logo Image"
+              class="header__logo-img"
+            />
+          </div>
+          <span class="header__logo-sub">Will Carson</span>
+        </div>
+        <div class="header__main">
+          <ul class="header__links">
+            <li class="header__link-wrapper">
+              <a href="./index.html" class="header__link"> Home </a>
+            </li>
+            <li class="header__link-wrapper">
+              <a href="./index.html#about" class="header__link">About </a>
+            </li>
+            <li class="header__link-wrapper">
+              <a href="./index.html#projects" class="header__link">
+                Projects
+              </a>
+            </li>
+            <li class="header__link-wrapper">
+              <a href="./index.html#contact" class="header__link"> Contact </a>
+            </li>
+          </ul>
+          <div class="header__main-ham-menu-cont">
+            <img
+              src="./assets/svg/ham-menu.svg"
+              alt="hamburger menu"
+              class="header__main-ham-menu"
+            />
+            <img
+              src="./assets/svg/ham-menu-close.svg"
+              alt="hamburger menu close"
+              class="header__main-ham-menu-close d-none"
+            />
+          </div>
+        </div>
+      </div>
+      <div class="header__sm-menu">
+        <div class="header__sm-menu-content">
+          <ul class="header__sm-menu-links">
+            <li class="header__sm-menu-link">
+              <a href="./index.html"> Home </a>
+            </li>
+
+            <li class="header__sm-menu-link">
+              <a href="./index.html#about"> About </a>
+            </li>
+
+            <li class="header__sm-menu-link">
+              <a href="./index.html#projects"> Projects </a>
+            </li>
+
+            <li class="header__sm-menu-link">
+              <a href="./index.html#contact"> Contact </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <section class="project-cs-hero">
+      <div class="project-cs-hero__content">
+        <h1 class="heading-primary">AI Art Instagram Page</h1>
+        <div class="project-cs-hero__info">
+          <p class="text-primary">
+            As a hobby project, I created an instagram page where I post my AI/computer generated pictures, cover songs (AI music), and music videos. This creative outlet has challenged me to learn programming skills which were previously unbeknownst to me. Check out my latest work by using the link or AI generated QR code below!
+          </p>
+        </div>
+        <div class = 'container'>  
+          <div class="project-cs-hero__cta">
+            <a href="https://www.instagram.com/bjornborgai/" class="btn btn--bg" target="_blank" float="left" style ="margin-top: 100px;">Link to AI Instagram</a>
+          </div>
+            <img
+              src="./assets/png/qr.png"
+              float="right"
+              style ="margin-top: 20px;"
+              alt="QR Code for AI Instagram"
+              width="300"
+              height="300"
+            />
+        </div>
+        
+      </div>
+      <div class="home-hero__mouse-scroll-cont">
+        <div class="mouse"></div>
+      </div>
+
+    </section>
+    <section class="project-details">
+      <div class="main-container">
+        <div class="project-details__content">
+          <div class="project-details__showcase-img-cont">
+            <img
+              src="./assets/jpeg/ai-art.jpg"
+              alt="Project Image"
+              class="project-details__showcase-img"
+            />
+          </div>
+          
+          <div id="wrapper">
+            <video id="home1" width="210vh" height="210vh" poster="./assets/png/mood2.png" controls="controls" preload="none">
+              <source type="video/mp4" src="./assets/video/quinn.mp4" />
+            </video>
+            <video id="home2" width="210vh" height="210vh" poster="./assets/jpeg/sun.jpg" controls="controls" preload="none">
+              <source type="video/mp4" src="./assets/video/sunny.mp4" />
+            </video>
+            <video id="home1" width="210vh" height="210vh" poster="./assets/png/b.png" controls="controls" preload="none">
+              <source type="video/mp4" src="./assets/video/clouds.mp4" />
+            </video>
+            <video id="home2" width="210vh" height="210vh" poster="./assets/png/ocean.png" controls="controls" preload="none">
+              <source type="video/mp4" src="./assets/video/mayTrip.mp4" />
+            </video>
+            <div class="clear"></div>
+          </div>
+          
+          
+            
+          <div class="project-details__content-main">
+            <div class="project-details__desc">
+              <h3 class="project-details__content-title">Project Overview</h3>
+              <p class="project-details__desc-para">
+                Over the past year, I embarked on a fascinating project that delved into the realm of AI art and multimedia creation. It all began when OpenAI's chatGPT gained widespread attention, inspiring me to explore the possibilities of their chatGPT API through Huggingface. Intrigued by the concept of generating art from text, I experimented with their 'Dall-E 2' software, crafting captivating text-to-image artworks. However, my quest for even greater potential led me to Midjourney, a text-to-image creator highly regarded by the online AI community. Yet, I yearned to push the boundaries further and stumbled upon a game-changing Google Colab notebook called VQGAN-Clip, enabling text-to-video transformations. Eager to enhance my workflow, I switched to utilizing the Deforum Stable Diffusion Google-Colab notebook, after discovering its superior features within an AI art Discord community. Another noteworthy tool in my repertoire is so-vits-svc, an open-source software developed on GitHub, which empowers users to train their own AI models to speak in various voices and languages. 
+              </p>
+              <p class="project-details__desc-para">
+                Leveraging this software, I've created captivating music videos featuring artists singing songs outside their usual repertoire—a viral sensation on social media today. My creative process typically involves generating a series of still images using Midjourney's text-to-image capabilities. Subsequently, I select a song or create a cover using so-vits-svc, meticulously synchronizing the timing of the music with the desired number of frames per text-to-video sequence based on the initial image batch. By producing two versions of each picture and expertly blending them, I achieve seamless transitions within the AI-generated videos. To bring it all together, I rely on DaVinci Resolve, a powerful video editing software, to craft the final composition. This project represents my relentless pursuit of innovation at the intersection of AI and artistic expression.
+              </p>
+            </div>           
+            <div class="project-details__tools-used">
+              <h3 class="project-details__content-title">Tools Used</h3>
+              <div class="skills">
+                <div class="skills__skill">Python</div>
+                <div class="skills__skill">AI Prompt Engineering</div>
+                <div class="skills__skill">Google Colab</div>
+                <div class="skills__skill">JavaScript</div>
+                <div class="skills__skill">AI Model Generation</div>
+                <div class="skills__skill">AI Prompt Engineering</div>
+                <div class="skills__skill">GitHub</div>
+                <div class="skills__skill">Anaconda</div>
+                <div class="skills__skill">GIT</div>
+                <div class="skills__skill">Photoshop</div>
+              </div>
+            </div>
+            <div class="project-details__links" style = "text-align: center;">
+              <h3 class="project-details__content-title">See Live</h3>
+              <a
+                href="https://www.instagram.com/bjornborgai/"
+                class="btn btn--med btn--theme project-details__links-btn"
+                target="_blank"
+                >Link to AI Instagram</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="main-footer">
+      <div class="main-container">
+        <div class="main-footer__upper">
+          <div class="main-footer__row main-footer__row-1">
+            <h2 class="heading heading-sm main-footer__heading-sm">
+              <span>Social</span>
+            </h2>
+            <div class="main-footer__social-cont">
+              <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/willcarson021/">
+                <img
+                  class="main-footer__icon"
+                  src="./assets/png/linkedin-ico.png"
+                  alt="icon"
+                />
+              </a>
+              <a target="_blank" rel="noreferrer" href="https://app.joinhandshake.com/stu/users/12776887">
+                <img
+                  class="main-footer__icon"
+                  src="./assets/png/handshake-ico.png"
+                  alt="icon"
+                />
+              </a>
+ 
+              <a target="_blank" rel="noreferrer" href="https://www.instagram.com/will_carson0/?hl=en">
+                <img
+                  class="main-footer__icon main-footer__icon--mr-none"
+                  src="./assets/png/insta-ico.png"
+                  alt="icon"
+                />
+              </a>
+            </div>
+          </div>
+          <div class="main-footer__row main-footer__row-2">
+            <h4 class="heading heading-sm text-lt">Will Carson</h4>
+            <p class="main-footer__short-desc">
+              For any inquiries, please don't hesitate to contact me via email at wcarson@bu.edu.
+            </p>
+          </div>
+        </div>
+
+        
+      </div>
+    </footer>
+  </body>
+</html>
